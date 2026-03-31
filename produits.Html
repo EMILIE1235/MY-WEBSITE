@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Produits</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f7f4f4;
+}
+
+/* Navbar */
+.navbar {
+    background: rgb(250, 178, 224);
+    padding: 15px;
+}
+.navbar a {
+    color: rgb(249, 247, 247);
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Products */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: rgb(248, 244, 244);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+button {
+    background: rgb(227, 159, 248);
+    color: rgb(248, 244, 244);
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background: rgb(5, 173, 5);
+}
+</style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <a href="my first project.html">Accueil</a>
+    <a href="produits.html">Produits</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<h1>Nos Produits</h1>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://i.pinimg.com/1200x/36/d0/6e/36d06e850f7f0b8b56263aa1e376d963.jpg">
+        <h3> Bague</h3>
+        <p>800 DA</p>
+        <button>Ajouter</button>
+    </div>
+
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/cf/c5/40/cfc540620e8a0a229244a13442c47e3f.jpg">
+        <h3>Bracelet</h3>
+        <p>950 DA</p>
+        <button>Ajouter</button>
+    </div>
+<div class="card">
+        <img src="https://i.pinimg.com/736x/c6/76/5e/c6765e411494662fd2e75690f3306b83.jpg">
+        <h3>Bracelet Hermès blanc</h3>
+        <p>1400 DA</p>
+        <button>Ajouter</button>
+    </div>
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/16/4d/e1/164de16390ac463d295457528dbd6454.jpg">
+        <h3>Parure de bijoux 4 piece</h3>
+        <p>2700 DA</p>
+        <button>Ajouter</button>
+    </div>
+    <div class="card">
+        <img src="https://i.pinimg.com/736x/fe/a4/0c/fea40cebc7b3d91f617a19fb40b77d2c.jpg">
+        <h3>gold Bvlgari watch</h3>
+        <p>2000 DA</p>
+        <button>Ajouter</button>
+    </div>
+    <div class="card">
+        <img src="https://i.pinimg.com/1200x/63/0f/ff/630fff5e89b03312d27a487dfd2a8c46.jpg">
+        <h3>Collier prénom personnalisé</h3>
+        <p>1000DA</p>
+        <button>Ajouter</button>
+    </div>
+    <div class="card">
+        <img src="https://i.pinimg.com/1200x/76/88/80/7688808edab158e24d25b85de93c0f93.jpg">
+        <h3>Ensemble de 12 bagues </h3>
+        <p>1000 DA</p>
+        <button>Ajouter</button>
+    </div>
+    
+    
+
+</div>
+
+</body>
+</html>

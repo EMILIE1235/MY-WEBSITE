@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+    background: rgb(239, 160, 205);
+    padding: 15px;
+}
+.navbar a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Contact form */
+.contact-container {
+    max-width: 600px;
+    margin: auto;
+    background: rgb(246, 244, 245);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #f9f6f6;
+}
+
+.contact-container button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(250, 154, 236);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-container button:hover {
+    background: green;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <a href="my first project.html">Accueil</a>
+    <a href="produits.html">Produits</a>
+     <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<h1>Contactez-nous</h1>
+
+<div class="contact-container">
+    <form>
+        <input type="text" placeholder="Nom" required>
+         <input type="text" placeholder="prénom" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bijouterie</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f8f3f6;
+            color: #ec8fd9;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: #f8b1ee;
+            color: #fff;
+        }
+        .navbar a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero Banner */
+        .hero {
+            height: 80vh;
+            background: url('https://i.pinimg.com/1200x/1a/16/de/1a16de237b22a9c5f70f81e8e95dbccf.jpg') center/cover no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #efe9ed;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+        }
+        .hero h1 {
+            font-size: 4rem;
+        }
+
+        /* Produits */
+        .products {
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .products h2 {
+            margin-bottom: 20px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            transition: 0.3s;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            border-color: #000;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .product p {
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo"><a href="#">Bijouterie</a></div>
+        <div class="menu">
+            <a href="my first project.html">Accueil</a>
+            <a href="produits.Html">Produits</a>
+            <a href="apropos.html">À propos</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <!-- hero section-->
+     <section class="hero">
+    
+     </section>
+    <!-- Produits -->
+    <section class="products">
+        <h2>Nos Meilleurs Produits</h2>
+        <div class="product-grid">
+            
+    
+            <div class="product">
+                <img src="https://i.pinimg.com/736x/d2/ef/c8/d2efc837c7597b0720d951e4949b2716.jpg" alt="Produit 2">
+                <h3>Bague Classique</h3>
+                <p>€90.00</p>
+            </div>
+            <div class="product">
+                <img src="https://i.pinimg.com/1200x/10/9e/f9/109ef9cb44b8a2420fa9b3d241c344e2.jpg" alt="Produit 3">
+                <h3>Bracelet Luxe</h3>
+                <p>€75.00</p>
+            </div>
+             <div class="product">
+                <img src="https://i.pinimg.com/1200x/5e/95/cb/5e95cbf6c0c65e6e26860a11ac6f71f2.jpg">
+                <h3>Collier Élégant</h3>
+                <p>€75.00</p>
+            </div>
+            <div class="product">
+                <img src="https://i.pinimg.com/1200x/41/bc/85/41bc8579016491dfd017a40a7a112ea3.jpg" alt="Produit 3">
+                <h3>boucles d'oreilles</h3>
+                <p>€90.00</p>
+            </div>
+             <div class="product">
+                <img src="https://i.pinimg.com/736x/59/c1/15/59c115d82b9a9a8a39c433cd0476c74c.jpg" alt="Produit 3">
+                <h3> Bague Classique</h3>
+                <p>€90.00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2026 Bijouterie - Tous droits réservés
+    </footer>
+
+</body>
+</html
